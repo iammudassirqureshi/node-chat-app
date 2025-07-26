@@ -1,0 +1,26 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "This is simple chat app for fan and players with basic authentication.",
+  "repository": {
+    "type": "git",
+    "url": "git@github-personal:iammudassirqureshi/node-chat-app.git"
+  },
+  "license": "ISC",
+  "author": "Mudassir Qureshi",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon server.mjs"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.5",
+    "morgan": "^1.10.1",
+    "socket.io": "^4.8.1"
+  }
+}
